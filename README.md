@@ -7,19 +7,15 @@ On April 15, 1912, during her maiden voyage, the widely considered “unsinkable
 
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 
-## Data & Goal
+## Data
 The data is from [Kaggle.com](https://www.kaggle.com/c/titanic/overview) and this is a prediction competition (Challenge) on the Kaggle.com.
-The goal of this project is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 **Attribute information**
 ![images/data_dictionary.png](images/data_dictionary.png)
-
-- For this project, the oversampling method was applied to balance two classes.
-- The model stacking methods was used to predict the target.
-- There are two sections for the modeling part
-    -At First Level:
-      - Logistic Regression
-      - Random Forest
-      - Neural NetworkAt
-    - At Second Level:
-      -  I collected all the outputs from the first level and used those outputs as new features for the second level.The XGboost model was applied in this section.
-  
+## Goal
+The goal of this project is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). For this project, the oversampling method was applied to balance two classes. The model stacking methods was used to predict the target. There are two sections for the modeling part: 
+-At First Level:
+    - Logistic Regression
+    - Random Forest
+    - Neural NetworkAt
+- At Second Level:
+    -  I collected all the outputs from the first level and used those outputs as new features for the second level.The XGboost model was applied in this section.
