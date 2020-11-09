@@ -10,8 +10,8 @@ While there was some element of luck involved in surviving, it seems some groups
 ## Data & Goal
 The data is from [Kaggle.com](https://www.kaggle.com/c/titanic/overview) and this is a prediction competition (Challenge) on the Kaggle.com.
 The goal of this project is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
-- Attribute information
-- ![images/data_dictionary.png](images/data_dictionary.png)
+**Attribute information**
+![images/data_dictionary.png](images/data_dictionary.png)
 
 - For this project, the oversampling method was applied to balance two classes.
 - The model stacking methods was used to predict the target.
