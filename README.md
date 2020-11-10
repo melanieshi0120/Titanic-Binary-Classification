@@ -34,9 +34,10 @@ We can see that most people are males and the data of females and males are not 
 - Oversampling
 ![images/target_distribution.png](images/target_distribution.png)
 ## Model Stacking
+![images/model_stacking.png](images/model_stacking.png)
 There are two parts at first level, text data analysis and non_text data analysis. For text data , Logistic Regression, Random Forest, Neural Network and  were applies and obtained each model's predictions for train data and validation data.
 At second level, All three outputs from first level were combined as new features and XGboost was applied to predict out final target. 
 The score is up to 91.70% 
-![images/model_stacking.png](images/model_stacking.png)
+## Confusion Matrix and Prediction
 ![images/confusion_matrix.png](images/confusion_matrix.png)
 ![images/prediction_vs_actual.png](images/prediction_vs_actual.png)
